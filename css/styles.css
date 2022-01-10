@@ -72,6 +72,7 @@ img {
     font-weight: 700;
     letter-spacing: 2px;
     color: var(--secondary-clr);
+    margin-bottom: 2rem;
 }
 @media screen and (max-width: 576px) {
     .heading {
@@ -264,3 +265,55 @@ img {
     border-radius: .3rem;
 }
 /* home section ends */
+/* featured locations section starts */
+.featured-locations {
+    padding: 4rem 0;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+.featured-locations .card {
+    flex: 0 0 20rem;
+    max-width: 100%;
+    overflow: hidden;
+    box-shadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
+    border-radius: .3rem;
+}
+.featured-locations .card-header {
+    position: relative;
+    display: flex;
+}
+.featured-locations .card-img {
+    width: 100%;
+    height: 13rem;
+    object-fit: cover;
+}
+.featured-locations .discount {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    padding: .3rem .5rem;
+    border-radius: .25rem;
+    background-color: #F93302;
+    color: var(--white-clr);
+}
+.featured-locations .card-body {
+    padding: 1.5rem 1.25rem;
+    text-align: center;
+}
+.featured-locations .location-name {
+    font-size: 1.75rem;
+    color: var(--primary-clr);
+    margin-bottom: .5rem;
+}
+.featured-locations .location-stars {
+    margin: 1rem 0;
+}
+.featured-locations .location-stars li {
+    color: #FED700;
+}
+/* featured locations section ends */
