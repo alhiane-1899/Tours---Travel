@@ -355,3 +355,43 @@ img {
     color: var(--primary-clr);
 }
 /* about us section ends */
+/* gallery section starts */
+.gallery {
+    padding: 0 0 4rem;
+}
+.gallery .card {
+    flex: 0 0 20rem;
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+.gallery .card-img {
+    width: 100%;
+    height: 13rem;
+    object-fit: cover;
+}
+.gallery .overlay {
+    position: absolute;
+    top: 120%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 1.5rem;
+    background-image: linear-gradient(transparent, var(--secondary-clr));
+}
+.gallery .card:hover .overlay {
+    top: 0;
+}
+.gallery .card-icon {
+    font-size: 1.5rem;
+    color: var(--white-clr);
+    margin: 0 15px;
+}
+.gallery .card-icon:hover {
+    color: var(--primary-clr);
+}
+/* gallery section ends */
