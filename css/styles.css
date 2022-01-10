@@ -277,9 +277,11 @@ img {
     flex-wrap: wrap;
     gap: 2.5rem;
 }
-.featured-locations .card {
+.card {
     flex: 0 0 20rem;
     max-width: 100%;
+}
+.featured-locations .card {
     overflow: hidden;
     box-shadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
     border-radius: .3rem;
@@ -360,8 +362,6 @@ img {
     padding: 0 0 4rem;
 }
 .gallery .card {
-    flex: 0 0 20rem;
-    max-width: 100%;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -395,3 +395,43 @@ img {
     color: var(--primary-clr);
 }
 /* gallery section ends */
+/* reviews section starts */
+.reviews {
+    padding: 4rem 0;
+    background-color: var(--primary-clr);
+}
+.reviews .row {
+    gap: calc(2.5rem + 55px) 2.5rem;
+}
+.reviews .heading {
+    color: var(--white-clr);
+    margin-bottom: calc(2rem + 55px);
+}
+.reviews .heading span {
+    color: #FED700;
+}
+.reviews .card {
+    padding: 1.5rem 1.25rem;
+    background-color: var(--white-clr);
+    box-shadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
+    border-radius: .3rem;
+    text-align: center;
+}
+.reviews .card-img {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: -75px auto 1rem;
+    border: 5px solid var(--white-clr);
+    border-radius: 50%;
+}
+.reviews .writer-name {
+    font-size: 1.25rem;
+    color: var(--primary-clr);
+    margin-bottom: .5rem;
+}
+.review-stars {
+    margin-top: .5rem;
+    color: var(--primary-clr);
+}
+/* reviews section ends */
