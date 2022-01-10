@@ -435,3 +435,83 @@ img {
     color: var(--primary-clr);
 }
 /* reviews section ends */
+/* contact us section starts */
+.contact-us {
+    padding: 4rem 0;
+}
+.contact-us .row {
+    gap: 2.5rem 0;
+}
+@media screen and (max-width: 991px) {
+    .contact-us .row {
+        justify-content: flex-start;
+    }
+}
+.contact-us iframe {
+    margin-bottom: 2rem;
+}
+.contact-info {
+    flex: 0 0 20rem;
+    max-width: 100%;
+}
+.contact-form {
+    flex: 0 0 35rem;
+    max-width: 100%;
+}
+.info-box:not(:last-of-type) {
+    margin-bottom: 2.5rem;
+}
+.info-box h3 {
+    font-size: 1.25rem;
+    margin-bottom: .25rem;
+}
+.info-box h3 i {
+    padding-right: .25rem;
+    color: var(--primary-clr);
+}
+.info-box p {
+    padding-left: 1.75rem;
+}
+.contact-form h3 {
+    font-size: 2rem;
+    color: var(--primary-clr);
+    margin-bottom: 1.5rem;
+}
+.contact-form .input-box input {
+    display: inline-block;
+    width: 48%;
+}
+@media screen and (max-width: 768px) {
+    .contact-form .input-box input {
+        display: block;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .contact-form .input-box input:first-child {
+        margin-right: 1%;
+    }
+}
+.contact-form input,
+.contact-form textarea {
+    padding: 12px;
+    margin-bottom: 1rem;
+    border: 2px solid var(--primary-clr);
+}
+.contact-form textarea {
+    width: 100%;
+    height: 200px;
+    resize: none;
+}
+.contact-form .btn {
+    padding: 8px 45px;
+    background-color: transparent;
+    border: .125rem solid var(--primary-clr);
+    border-radius: 0;
+    color: var(--primary-clr);
+}
+.contact-form .btn:hover {
+    background-color: var(--primary-clr);
+    color: var(--white-clr);
+}
+/* contact us section ends */
