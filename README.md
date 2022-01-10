@@ -1,6 +1,6 @@
 # Tours & Travel Single Page Website Design
 
-_Complete Responsive Tours & Travel Ecommerce Website Design_
+_Complete Responsive Tours & Travel Website Design_
 
 ### Tools:
 
